@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,13 +19,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: #333;
 }
 
 h1, h2 {
     font-weight: 300;
-    line-height: 1.2;
     margin: 10px 0;
+    line-height: 1.2;
 }
 
 p {
@@ -35,3 +35,35 @@ img {
     width: 100%;
 }
 
+.navbar {
+    background: #047aed;
+    height: 70px;
+    color: #FFF;
+}
+.navbar .flex {
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;
+}
+.container ul {
+    display: flex;
+    
+}
+ul a {
+    color: #FFF;
+    padding: 10px;
+    margin: 0 5px;
+}
+ul a:hover {
+    border-bottom: 2px solid #FFF;
+}
